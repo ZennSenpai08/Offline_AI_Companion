@@ -1,0 +1,4 @@
+# Phase 2 only. No AI/audio/browser dependencies.
+PySide6-Essentials==6.10.2
+shiboken6==6.10.2
+psutil==7.2.2

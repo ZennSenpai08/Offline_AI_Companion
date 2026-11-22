@@ -1,0 +1,13 @@
+{
+  "scenario": "Actual microphone callbacks and native stream closure through Qt tray/panel controls",
+  "device": "system default",
+  "cycles": [],
+  "errors": [
+    "Cannot open microphone: PortAudioError: Error opening RawInputStream: Unanticipated host error [PaErrorCode -9999]: 'Undefined external error.' [MME error 1]. Check device selection and Windows Settings \u2192 Privacy & security \u2192 Microphone \u2192 desktop apps. Retrying in 3 seconds (1/5)."
+  ],
+  "audio_saved": false,
+  "transcripts_saved": false,
+  "coordinator_stopped": true,
+  "streams_opened": 0,
+  "all_native_streams_closed": null
+}

@@ -1,0 +1,13 @@
+{
+  "scenario": "Actual microphone callbacks and native stream closure through Qt tray/panel controls",
+  "device": "system default",
+  "cycles": [],
+  "errors": [
+    "Native stream did not deliver enough callbacks"
+  ],
+  "audio_saved": false,
+  "transcripts_saved": false,
+  "coordinator_stopped": true,
+  "streams_opened": 1,
+  "all_native_streams_closed": true
+}

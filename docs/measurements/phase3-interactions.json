@@ -1,0 +1,117 @@
+{
+  "scenario": "984 resize/flip pairs with tracemalloc; return to 100% at each checkpoint",
+  "scope": "GUI process only; relative allocation check, not total application memory",
+  "animation_timer_stopped": true,
+  "samples": [
+    {
+      "resize_flip_pairs": 24,
+      "gui_private_mib": 29.54296875,
+      "gui_resident_mib": 56.39453125,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6088695526123047,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 120,
+      "gui_private_mib": 30.84375,
+      "gui_resident_mib": 57.5546875,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6350393295288086,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 216,
+      "gui_private_mib": 31.11328125,
+      "gui_resident_mib": 58.41015625,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6392707824707031,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 312,
+      "gui_private_mib": 33.26953125,
+      "gui_resident_mib": 60.80859375,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6515321731567383,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 408,
+      "gui_private_mib": 32.75,
+      "gui_resident_mib": 59.48828125,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6619577407836914,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 504,
+      "gui_private_mib": 33.265625,
+      "gui_resident_mib": 60.53125,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6673221588134766,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 600,
+      "gui_private_mib": 33.9453125,
+      "gui_resident_mib": 61.49609375,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6761531829833984,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 696,
+      "gui_private_mib": 32.74609375,
+      "gui_resident_mib": 59.52734375,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6784038543701172,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 792,
+      "gui_private_mib": 33.9453125,
+      "gui_resident_mib": 61.5,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6804771423339844,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 888,
+      "gui_private_mib": 32.01171875,
+      "gui_resident_mib": 58.640625,
+      "gui_handles": 348,
+      "python_traced_mib": 0.6817865371704102,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    },
+    {
+      "resize_flip_pairs": 984,
+      "gui_private_mib": 34.75,
+      "gui_resident_mib": 62.171875,
+      "gui_handles": 347,
+      "python_traced_mib": 0.6850690841674805,
+      "individual_layer_bytes": 717352,
+      "cached_layers": 19,
+      "cached_groups": 9
+    }
+  ]
+}

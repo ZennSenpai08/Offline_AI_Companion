@@ -1,0 +1,89 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Romcill\\Desktop\\Local_AI_Companion\\offline-ai-companion\\.venv\\Scripts\\python.exe",
+  "versions": {
+    "sounddevice": "0.5.3",
+    "webrtcvad-wheels": "2.0.14",
+    "numpy": "2.2.6",
+    "soxr": "0.5.0.post1",
+    "pywhispercpp": "1.5.0"
+  },
+  "devices": [
+    [
+      0,
+      "MME | Microsoft Sound Mapper - Input"
+    ],
+    [
+      1,
+      "MME | Microphone Array (AMD Audio Dev"
+    ],
+    [
+      4,
+      "Windows DirectSound | Primary Sound Capture Driver"
+    ],
+    [
+      5,
+      "Windows DirectSound | Microphone Array (AMD Audio Device)"
+    ],
+    [
+      9,
+      "Windows WASAPI | Microphone Array (AMD Audio Device)"
+    ],
+    [
+      10,
+      "Windows WDM-KS | Microphone Array (AMDAfdInstall Wave Microphone - 0)"
+    ],
+    [
+      11,
+      "Windows WDM-KS | Microphone (Realtek HD Audio Mic input)"
+    ],
+    [
+      12,
+      "Windows WDM-KS | Stereo Mix (Realtek HD Audio Stereo input)"
+    ],
+    [
+      16,
+      "Windows WDM-KS | PC Speaker (Realtek HD Audio output with HAP)"
+    ]
+  ],
+  "native_checks": {
+    "webrtc_silence_rejected": true,
+    "soxr_output_samples": 16000,
+    "whisper_binding_has_tagalog": true
+  },
+  "backend": {
+    "binding_path": "C:\\Users\\Romcill\\Desktop\\Local_AI_Companion\\offline-ai-companion\\.venv\\lib\\site-packages\\_pywhispercpp.cp310-win_amd64.pyd",
+    "binding_sha256": "d7212991cd6fdbdf59ac80f6c87f784ba8ef7d6bde2795ffb9128e20294220c6",
+    "binding_version": "dev",
+    "system_info": "WHISPER : COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | OPENMP = 1 | REPACK = 1 | ",
+    "portaudio": [
+      1246976,
+      "PortAudio V19.7.0-devel, revision unknown"
+    ],
+    "default_input": {
+      "name": "Microphone Array (AMD Audio Dev",
+      "index": 1,
+      "hostapi": 0,
+      "max_input_channels": 2,
+      "max_output_channels": 0,
+      "default_low_input_latency": 0.09,
+      "default_low_output_latency": 0.09,
+      "default_high_input_latency": 0.18,
+      "default_high_output_latency": 0.18,
+      "default_samplerate": 44100.0
+    }
+  },
+  "model": "C:\\Users\\Romcill\\Desktop\\Local_AI_Companion\\offline-ai-companion\\models\\ggml-tiny-q5_1.bin",
+  "model_provenance": {
+    "model": "tiny-q5_1",
+    "sha256": "818710568da3ca15689e31a743197b520007872ff9576237bda97bd1b469c3d7",
+    "size": 32152673,
+    "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+    "source": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny-q5_1.bin",
+    "license": "MIT",
+    "license_source": "https://github.com/ggml-org/whisper.cpp/blob/master/LICENSE",
+    "source_model": "OpenAI Whisper tiny multilingual",
+    "quantization": "Q5_1"
+  },
+  "errors": []
+}

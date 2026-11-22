@@ -1,0 +1,27 @@
+{
+  "execution_account": "codexsandboxoffline",
+  "process_session": 12,
+  "console_session": 12,
+  "devices": [
+    {
+      "device": "system default",
+      "opened": false,
+      "error_type": "PortAudioError",
+      "error": "Error opening RawInputStream: Unanticipated host error [PaErrorCode -9999]: 'Undefined external error.' [MME error 1]"
+    },
+    {
+      "device": "Windows WASAPI | Microphone Array (AMD Audio Device)",
+      "opened": false,
+      "error_type": "PortAudioError",
+      "error": "Error opening RawInputStream: Invalid device [PaErrorCode -9996]"
+    },
+    {
+      "device": "Windows DirectSound | Microphone Array (AMD Audio Device)",
+      "opened": false,
+      "error_type": "PortAudioError",
+      "error": "Error opening RawInputStream: Unanticipated host error [PaErrorCode -9999]: 'DirectSound error' [Windows DirectSound error -2147467259]"
+    }
+  ],
+  "audio_saved": false,
+  "note": "Capture failure under the agent account; ordinary desktop-user capture remains unverified."
+}
